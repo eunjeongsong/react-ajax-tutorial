@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "semantic-ui-react";
 import "./Navigator.css";
 
-const Navigator = () => (
+const Navigator = ({ postId, disabled }) => (
   <div className="Navigate">
     <Button
       color="teal"
